@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard-Regular';
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+ol, ul {
+    list-style: none;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.body-inner {
+    width: 1076px;
+    margin: auto;
+}
+
+
+#header-banner {
+    width: 100%;
+    height: 72px;
+    background-color: #20202d;
+    text-align: center;
+}
+#header-banner a {
+    display: flex;
+    justify-content: center;
+    line-height: 72px;
+}
+#header-banner a p {
+    color: #b1b1b9;
+    font-size: 20px;
+}
+#header-banner a p strong {
+    color: #fff;
+    font-size: 20px;
+}
+#header-banner a img {
+    width: 26px;
+    height: 26px;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ececef;
+}
+.main-logo {
+    margin-left: 42px;
+}
+.main-logo a {
+    display: block;
+}
+.main-logo a img {
+    width: 130px;
+    height: 48px;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+header nav ul li a {
+    font-weight: 700;
+    font-size: 20px;
+    color: #111;
+}
+.header-right {
+    margin-right: 42px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.admin-button {
+    width: 104px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 15px;
+    font-weight: 700;
+    background-color: #fff;
+}
+.admin-button:nth-child(1) {
+    color: #0b0d10;
+    border: 1px solid #d6d7dd;
+}
+.admin-button:nth-child(2) {
+    color: #fff;
+    background-color: #2417ce;
+}
+
+#main-slide {
+    width: 100%;
+    height: 580px;
+    position: relative;
+    background-color: beige;
+}
+.swiper-button-next, .swiper-button-prev{
+    position: absolute;
+    top: auto;
+    bottom: 0;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 15px;
+    color: #0b0d10;
+}
+.swiper-button-prev{
+    left: 0px;
+    right: 120px;
+    margin: auto;
+}
+.swiper-button-next{
+    left: 120px;
+    right: 0px;
+    margin: auto;
+}
+.swiper-pagination-bullet {
+    background: #0b0d10;
+}
