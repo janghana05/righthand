@@ -153,12 +153,55 @@ header nav ul li a {
 
 #content1 {
     width: 100%;
-    height: 785px;
-    background-color: beige;
+    height: 780px;
     margin-top: 120px;
 }
 .content-title {
     display: flex;
-    align-items: center;
-    height: 48px;
+}
+#content1 > .content-title img {
+    height: 100%;
+    margin-right: 20px;
+}
+#content1 > .content-title h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.content1-inner {
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+.content1-inner:nth-child(2) {
+    margin-top: 20px;
+}
+.content1-inner:nth-child(3) {
+    margin-top: 20px;
+}
+.content1-inner .content1-box {
+    width: 340px;
+    height: 340px;
+    border-radius: 34px;
+}
+.content1-inner:nth-child(2) .content1-box:nth-child(1) {
+    background-color: #f0f2f6;
+}
+.content1-inner:nth-child(2) .content1-box:nth-child(2) {
+    background-color: #e4edff;
+}
+.content1-inner:nth-child(2) .content1-box:nth-child(3) {
+    background-color: #2417ce;
+}
+.content1-inner:nth-child(3) .content1-box:nth-child(1) {
+    width: 708px;
+    height: 340px;
+    background-color: #22c789;
+}
+.content1-inner:nth-child(3) .content1-box:nth-child(2) {
+    background-color: #f0f2f6;
+}
+.content1-box .content-title img {
+    
 }
